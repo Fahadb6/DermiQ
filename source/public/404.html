@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>DermiQ — الصفحة غير موجودة · Page not found</title>
+<style>
+  html, body { height: 100%; margin: 0; }
+  body { display: grid; place-items: center; background: #211329; color: #fbf9f5; font-family: system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif; text-align: center; }
+  main { padding: 2rem; max-width: 30rem; }
+  .brand { font-weight: 700; letter-spacing: .02em; font-size: 1.1rem; margin: 0 0 2rem; }
+  h1 { font-size: 1.6rem; font-weight: 600; margin: 0 0 .75rem; line-height: 1.5; }
+  p { margin: 0 0 .5rem; line-height: 1.8; color: rgba(251, 249, 245, .75); }
+  a { display: inline-block; margin-top: 1.75rem; padding: .8rem 1.8rem; border-radius: 999px; background: #fbf9f5; color: #211329; font-weight: 600; text-decoration: none; }
+  a:focus-visible { outline: 3px solid #c9b8e6; outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand" dir="ltr">DermiQ</p>
+  <h1>هذه الصفحة غير موجودة</h1>
+  <p>ننقلك الآن إلى الصفحة الرئيسية.</p>
+  <p lang="en" dir="ltr">This page does not exist. Taking you to the home page.</p>
+  <a id="home" href="/">الصفحة الرئيسية · Home</a>
+</main>
+<script>
+  // Any wrong address leads home. Works at a domain root (Netlify) and under a GitHub Pages project path (user.github.io/repo/).
+  var seg = location.pathname.split('/')[1] || '';
+  var home = (location.hostname.slice(-10) === '.github.io' && seg) ? '/' + seg + '/' : '/';
+  document.getElementById('home').setAttribute('href', home);
+  if (location.pathname !== home && location.pathname !== home + 'index.html') location.replace(home);
+</script>
+</body>
+</html>

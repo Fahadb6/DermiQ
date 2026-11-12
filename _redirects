@@ -1,0 +1,13 @@
+# Hosting rules for the complete DermiQ package (Netlify and compatible hosts).
+# This file must sit next to index.html, at the top of the uploaded folder.
+
+# The package also carries the source code, the documents and a few helper files.
+# They are for the project team, not for visitors ("!" = apply even though the file exists):
+/source/*      /    302!
+/docs/*        /    302!
+/README.txt    /    302!
+/serve.mjs     /    302!
+
+# The app keeps its pages after the "#" (/#/product), so the only real page is "/".
+# Anything else that is not a real file goes back to the home page instead of "Page not found".
+/*             /    302

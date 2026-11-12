@@ -1,0 +1,4 @@
+# Hosting rules (Netlify and compatible hosts). This file must sit next to index.html.
+# The app keeps its pages after the "#" (/#/product), so the only real page is "/".
+# Anything else that is not a real file goes back to the home page instead of "Page not found".
+/*    /    302
