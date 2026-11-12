@@ -16,11 +16,12 @@ public website, patient application, physician portal and patient education cent
 ![Status](https://img.shields.io/badge/status-concept_prototype-8a63d2)
 ![Backend](https://img.shields.io/badge/backend-none_(static)-lightgrey)
 
-[**Live demo**](https://YOUR-USERNAME.github.io/YOUR-REPO/) ·
+[**Live demo**](https://fahadb6.github.io/DermiQ/) ·
 [Quick start](#quick-start) ·
 [Demo accounts](#demo-accounts) ·
 [Deploy](#deployment) ·
 [Documentation](#documentation) ·
+[بالعربية](#بالعربية)
 [بالعربية](#بالعربية)
 
 </div>
