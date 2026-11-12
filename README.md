@@ -44,7 +44,6 @@ public website, patient application, physician portal and patient education cent
 - [Quality assurance](#quality-assurance)
 - [Documentation](#documentation)
 - [Limitations](#limitations)
-- [بالعربية](#بالعربية)
 
 ---
 
