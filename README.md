@@ -21,8 +21,6 @@ public website, patient application, physician portal and patient education cent
 [Demo accounts](#demo-accounts) ·
 [Deploy](#deployment) ·
 [Documentation](#documentation) ·
-[بالعربية](#بالعربية)
-[بالعربية](#بالعربية)
 
 </div>
 
