@@ -21,12 +21,15 @@ public website, patient application, physician portal and patient education cent
 [Deploy](#deployment) ·
 [Documentation](#documentation) ·
  
-</div>
+<div align="left">
+
 > [!IMPORTANT]
 > **This is a design concept, not a product.** All people, clinics, values and records are fictional. It is **not** an approved
 > medical device, **not** a clinical system and **not** medical advice. Do not enter real patient data — there is no server and
 > no real security (see [`docs/SECURITY_NOTES.md`](docs/SECURITY_NOTES.md)).
- 
+
+</div>
+
 ---
  
 ## Table of Contents
